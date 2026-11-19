@@ -1,6 +1,13 @@
 ---
-title: "Across the Atlantic"
+title: "Ocean Exploration"
+subtitle: "Voyages & Logs · Marine Research · Stories & Films"
 ---
+
+Welcome to my personal ocean exploration website—a space for future [sailing logs](voyages.qmd), [marine research](research.qmd), and [documentaries & photography](stories.qmd).
+
+---
+
+**Featured Project: Across the Atlantic** — Explore more: [Migration Hotspots](hotspots.qmd) · [Species & Ocean Patterns](patterns.qmd)
 
 # Sailing from Freeport, Bahamas, to the Azores
 

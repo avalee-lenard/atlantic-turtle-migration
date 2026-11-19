@@ -1,0 +1,17 @@
+---
+title: "Marine Research"
+---
+
+## Ocean Data and Research Projects
+
+This section houses marine data explorations and ocean science projects.
+
+### Featured Project: Across the Atlantic
+
+Exploring how **120,718 sea turtle observations** from the Ocean Biodiversity Information System (OBIS) connect the Caribbean and the wider Atlantic Ocean along a proposed route from Freeport, Bahamas, to the Azores:
+
+- [Project Overview & Atlantic Map](index.qmd#sailing-from-freeport-bahamas-to-the-azores)
+- [Migration Hotspots](hotspots.qmd)
+- [Species & Ocean Patterns](patterns.qmd)
+
+*Additional marine research projects will be added here.*

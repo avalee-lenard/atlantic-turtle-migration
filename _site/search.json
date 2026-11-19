@@ -1,23 +1,163 @@
 [
   {
+    "objectID": "stories.html",
+    "href": "stories.html",
+    "title": "Stories & Films",
+    "section": "",
+    "text": "This section is reserved for future ocean documentaries, short films, and photography from voyages and marine fieldwork.\nStories, films, and photo essays coming soon."
+  },
+  {
+    "objectID": "stories.html#documentaries-and-photography",
+    "href": "stories.html#documentaries-and-photography",
+    "title": "Stories & Films",
+    "section": "",
+    "text": "This section is reserved for future ocean documentaries, short films, and photography from voyages and marine fieldwork.\nStories, films, and photo essays coming soon."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Ocean Exploration is a personal website built to grow alongside future ocean projects across three areas:\n\nVoyages & Logs: Sailing trips, route notes, and sea journals.\nMarine Research: Ocean data analysis and marine science projects.\nStories & Films: Ocean documentaries and photography."
+  },
+  {
+    "objectID": "about.html#about-this-website",
+    "href": "about.html#about-this-website",
+    "title": "About",
+    "section": "",
+    "text": "Ocean Exploration is a personal website built to grow alongside future ocean projects across three areas:\n\nVoyages & Logs: Sailing trips, route notes, and sea journals.\nMarine Research: Ocean data analysis and marine science projects.\nStories & Films: Ocean documentaries and photography."
+  },
+  {
+    "objectID": "about.html#featured-project-across-the-atlantic",
+    "href": "about.html#featured-project-across-the-atlantic",
+    "title": "About",
+    "section": "Featured Project: Across the Atlantic",
+    "text": "Featured Project: Across the Atlantic\nOur first featured marine research project, Across the Atlantic, explores sea turtle distribution and migration patterns across the Atlantic Ocean. It uses a proposed sailing route from Freeport, Bahamas, to the Azores, Portugal, as a geographic frame to ask:\n\nHow do sea turtle migration patterns connect the Caribbean and the Atlantic Ocean?"
+  },
+  {
+    "objectID": "about.html#data-and-workflow",
+    "href": "about.html#data-and-workflow",
+    "title": "About",
+    "section": "Data and Workflow",
+    "text": "Data and Workflow\nAll content on this site is based on geographic occurrence records from the Ocean Biodiversity Information System (OBIS), filtered and plotted in R (migration_map.R) to produce migration_map.png:\n\n\n\n\n\n\n\nDetail\nValue\n\n\n\n\nData Source\nOcean Biodiversity Information System (OBIS)\n\n\nAtlantic Study Records\n120,718 observations\n\n\nLongitude Bounds\n85°W to 10°E (-85 to 10)\n\n\nLatitude Bounds\n5°S to 65°N (-5 to 65)\n\n\nStarting Reference Marker\nFreeport, Bahamas (26.5°N, 78.7°W)\n\n\nDestination Reference Marker\nAzores, Portugal (37.7°N, 25.7°W)\n\n\nTools\nR (dplyr, ggplot2) and Quarto"
+  },
+  {
+    "objectID": "about.html#scope-and-limitations",
+    "href": "about.html#scope-and-limitations",
+    "title": "About",
+    "section": "Scope and Limitations",
+    "text": "Scope and Limitations\n\nCombined Sea Turtle Records: Our map plots all 120,718 Atlantic observations by latitude and longitude in one layer; it does not separate points by individual species, season, or individual animal track.\nProposed Sailing Route: As noted on the Home page, the red markers at Freeport and the Azores identify endpoints of a proposed sailing voyage, not a single measured turtle migration path.\nSurvey Effort: Dense clusters on the map reflect where sea turtles are frequently found as well as where scientific surveys and tracking programs collect the most data."
+  },
+  {
+    "objectID": "voyages.html",
+    "href": "voyages.html",
+    "title": "Voyages & Logs",
+    "section": "",
+    "text": "This section will collect future sailing logs, passage notes, and route journals at sea.\n\n\n\nFreeport, Bahamas to the Azores, Portugal: Currently explored as a proposed Atlantic route framing our featured marine research project, Across the Atlantic.\n\nFuture voyage logs will be added here."
+  },
+  {
+    "objectID": "voyages.html#sailing-trips-and-sea-journals",
+    "href": "voyages.html#sailing-trips-and-sea-journals",
+    "title": "Voyages & Logs",
+    "section": "",
+    "text": "This section will collect future sailing logs, passage notes, and route journals at sea.\n\n\n\nFreeport, Bahamas to the Azores, Portugal: Currently explored as a proposed Atlantic route framing our featured marine research project, Across the Atlantic.\n\nFuture voyage logs will be added here."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Marine Research",
+    "section": "",
+    "text": "This section houses marine data explorations and ocean science projects.\n\n\nExploring how 120,718 sea turtle observations from the Ocean Biodiversity Information System (OBIS) connect the Caribbean and the wider Atlantic Ocean along a proposed route from Freeport, Bahamas, to the Azores:\n\nProject Overview & Atlantic Map\nMigration Hotspots\nSpecies & Ocean Patterns\n\nAdditional marine research projects will be added here."
+  },
+  {
+    "objectID": "research.html#ocean-data-and-research-projects",
+    "href": "research.html#ocean-data-and-research-projects",
+    "title": "Marine Research",
+    "section": "",
+    "text": "This section houses marine data explorations and ocean science projects.\n\n\nExploring how 120,718 sea turtle observations from the Ocean Biodiversity Information System (OBIS) connect the Caribbean and the wider Atlantic Ocean along a proposed route from Freeport, Bahamas, to the Azores:\n\nProject Overview & Atlantic Map\nMigration Hotspots\nSpecies & Ocean Patterns\n\nAdditional marine research projects will be added here."
+  },
+  {
+    "objectID": "hotspots.html",
+    "href": "hotspots.html",
+    "title": "Migration Hotspots",
+    "section": "",
+    "text": "Our dataset contains 120,718 sea turtle observations from the Ocean Biodiversity Information System (OBIS) within the Atlantic study region (85°W to 10°E longitude and 5°S to 65°N latitude).\nOn the map below, each observation is plotted with partial transparency (alpha = 0.18). Isolated sightings appear faint, while areas with many overlapping records build into dark teal hotspots.\n\n\n\nSea turtle observations across the Atlantic, showing dense coastal and island clusters. Source: OBIS."
+  },
+  {
+    "objectID": "hotspots.html#where-sea-turtles-gather-in-the-atlantic",
+    "href": "hotspots.html#where-sea-turtles-gather-in-the-atlantic",
+    "title": "Migration Hotspots",
+    "section": "",
+    "text": "Our dataset contains 120,718 sea turtle observations from the Ocean Biodiversity Information System (OBIS) within the Atlantic study region (85°W to 10°E longitude and 5°S to 65°N latitude).\nOn the map below, each observation is plotted with partial transparency (alpha = 0.18). Isolated sightings appear faint, while areas with many overlapping records build into dark teal hotspots.\n\n\n\nSea turtle observations across the Atlantic, showing dense coastal and island clusters. Source: OBIS."
+  },
+  {
+    "objectID": "hotspots.html#major-hotspots-visible-in-the-data",
+    "href": "hotspots.html#major-hotspots-visible-in-the-data",
+    "title": "Migration Hotspots",
+    "section": "Major Hotspots Visible in the Data",
+    "text": "Major Hotspots Visible in the Data\nAcross the plotted OBIS records, five main high-density regions stand out:\n\nThe Bahamas and Southeastern North America (~25°N–42°N, 82°W–70°W): One of the darkest continuous bands on the map follows the western Atlantic coast near Freeport, Bahamas (26.5°N, 78.7°W), Florida, and northward along the U.S. Atlantic shelf.\nThe Caribbean Sea (~10°N–20°N, 85°W–60°W): Dense island clusters and curved travel paths span the Caribbean basin, with smaller coastal concentrations continuing south toward 5°S.\nNorthwestern Atlantic Offshore Waters (~42°N–48°N, 50°W–40°W): A distinct offshore cluster appears northeast of the North American coast in open North Atlantic waters.\nThe Azores (~37°N–40°N, 31°W–24°W): In the central North Atlantic, observations cluster tightly around the Azores (37.7°N, 25.7°W), highlighting these mid-ocean islands as an active hub surrounded by deep ocean.\nEastern Atlantic and Mediterranean Entrance (~35°N–44°N, 10°W–10°E): Heavy shading covers the waters around the Iberian Peninsula and the entrance to the Mediterranean Sea, with connected movement tracks extending south off West Africa."
+  },
+  {
+    "objectID": "hotspots.html#how-to-interpret-observation-hotspots",
+    "href": "hotspots.html#how-to-interpret-observation-hotspots",
+    "title": "Migration Hotspots",
+    "section": "How to Interpret Observation Hotspots",
+    "text": "How to Interpret Observation Hotspots\nHotspots on a biodiversity map reflect two factors working together:\n\nHabitat Use: Dense clusters point to productive coastal shelves, island groups, and ocean corridors where sea turtles regularly feed, nest, or travel.\nObservation Effort: Because OBIS compiles scientific surveys and tracking studies, accessible coastlines and monitored island regions naturally accumulate more recorded sightings than remote open-ocean waters."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Across the Atlantic",
+    "title": "Ocean Exploration",
     "section": "",
-    "text": "This project explores sea turtle migration across the Atlantic Ocean using real tracking data.\nOur journey follows a sailing route from Freeport, Bahamas, toward the Azores while exploring where sea turtles travel, how far they migrate, and how their paths connect across the ocean.\n\n\n\nHow do sea turtle migration patterns connect the Caribbean and the Atlantic Ocean?"
+    "text": "Welcome to my personal ocean exploration website—a space for future sailing logs, marine research, and documentaries & photography.\nFeatured Project: Across the Atlantic — Explore more: Migration Hotspots · Species & Ocean Patterns"
   },
   {
     "objectID": "index.html#following-the-migration-patterns-of-sea-turtles",
     "href": "index.html#following-the-migration-patterns-of-sea-turtles",
-    "title": "Across the Atlantic",
-    "section": "",
-    "text": "This project explores sea turtle migration across the Atlantic Ocean using real tracking data.\nOur journey follows a sailing route from Freeport, Bahamas, toward the Azores while exploring where sea turtles travel, how far they migrate, and how their paths connect across the ocean."
+    "title": "Ocean Exploration",
+    "section": "Following the Migration Patterns of Sea Turtles",
+    "text": "Following the Migration Patterns of Sea Turtles\nThis project explores sea turtle migration across the Atlantic Ocean using real tracking data.\nOur journey follows a sailing route from Freeport, Bahamas, toward the Azores while exploring where sea turtles travel, how far they migrate, and how their paths connect across the ocean."
   },
   {
     "objectID": "index.html#research-question",
     "href": "index.html#research-question",
-    "title": "Across the Atlantic",
+    "title": "Ocean Exploration",
+    "section": "Research Question",
+    "text": "Research Question\nHow do sea turtle migration patterns connect the Caribbean and the Atlantic Ocean?"
+  },
+  {
+    "objectID": "index.html#sea-turtle-migration-across-the-atlantic",
+    "href": "index.html#sea-turtle-migration-across-the-atlantic",
+    "title": "Ocean Exploration",
+    "section": "Sea Turtle Migration Across the Atlantic",
+    "text": "Sea Turtle Migration Across the Atlantic\nThe following map displays 120,718 sea turtle observations from the Atlantic study region.\nThese observations help illustrate the geographic distribution of sea turtles across the ocean.\n\n\n\nSea turtle observations across the Atlantic. Source: OBIS.\n\n\nThe red markers identify Freeport, Bahamas, and the Azores, Portugal. The sailing route is a proposed journey, not a measured turtle migration path."
+  },
+  {
+    "objectID": "patterns.html",
+    "href": "patterns.html",
+    "title": "Species & Ocean Patterns",
     "section": "",
-    "text": "How do sea turtle migration patterns connect the Caribbean and the Atlantic Ocean?"
+    "text": "The 120,718 OBIS observations in this project combine recorded sea turtle locations across the Atlantic study window (85°W to 10°E, 5°S to 65°N).\nIn our mapping script (migration_map.R), all sea turtle records are plotted together in a single color using latitude and longitude rather than separated by species name. While this combined dataset does not provide separate species counts on the map, it clearly shows broad ocean patterns shared across Atlantic sea turtle observations.\n\n\n\nCombined Atlantic sea turtle geographic records from OBIS showing coastal bands, open-ocean points, and movement paths."
+  },
+  {
+    "objectID": "patterns.html#how-species-are-represented-in-our-data",
+    "href": "patterns.html#how-species-are-represented-in-our-data",
+    "title": "Species & Ocean Patterns",
+    "section": "",
+    "text": "The 120,718 OBIS observations in this project combine recorded sea turtle locations across the Atlantic study window (85°W to 10°E, 5°S to 65°N).\nIn our mapping script (migration_map.R), all sea turtle records are plotted together in a single color using latitude and longitude rather than separated by species name. While this combined dataset does not provide separate species counts on the map, it clearly shows broad ocean patterns shared across Atlantic sea turtle observations.\n\n\n\nCombined Atlantic sea turtle geographic records from OBIS showing coastal bands, open-ocean points, and movement paths."
+  },
+  {
+    "objectID": "patterns.html#ocean-patterns-visible-on-the-map",
+    "href": "patterns.html#ocean-patterns-visible-on-the-map",
+    "title": "Species & Ocean Patterns",
+    "section": "Ocean Patterns Visible on the Map",
+    "text": "Ocean Patterns Visible on the Map\n\nCoastal Shelves and Open-Ocean Waters\nThe densest bands follow continental coastlines and island groups on both sides of the ocean. At the same time, widespread points stretch across the deep central Atlantic between Freeport, Bahamas (26.5°N, 78.7°W) and the Azores (37.7°N, 25.7°W), showing that sea turtles occupy both shallow nearshore habitats and open-ocean waters.\n\n\nDistribution by Latitude\nAlthough the study area spans from 5°S to 65°N, the vast majority of observations fall between roughly 10°N and 45°N. North of 50°N, records become sparse, matching sea turtles’ strong preference for warmer tropical, subtropical, and temperate waters.\n\n\nMovement Tracks vs. Gridded Records\nLooking closely at the plotted points reveals two distinct recording patterns in OBIS:\n\nContinuous curved lines—especially clear across the Caribbean, south of the Azores, and along Europe and West Africa—which represent repeated positions along travel paths.\nEvenly spaced grid dots across the central North Atlantic (~20°N–45°N), where sightings have been summarized into regular latitude-longitude grid cells."
+  },
+  {
+    "objectID": "patterns.html#connecting-the-caribbean-and-the-atlantic",
+    "href": "patterns.html#connecting-the-caribbean-and-the-atlantic",
+    "title": "Species & Ocean Patterns",
+    "section": "Connecting the Caribbean and the Atlantic",
+    "text": "Connecting the Caribbean and the Atlantic\nTogether, these patterns address our research question. Even though the red markers at Freeport and the Azores represent a proposed sailing journey rather than a single turtle’s measured route, the continuous spread of observations across the basin shows that the Caribbean, western Atlantic coast, mid-ocean Azores, and eastern Atlantic are linked by active sea turtle presence."
   }
 ]

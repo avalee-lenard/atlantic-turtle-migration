@@ -1,0 +1,13 @@
+---
+title: "Voyages & Logs"
+---
+
+## Sailing Trips and Sea Journals
+
+This section will collect future sailing logs, passage notes, and route journals at sea.
+
+### Planned Route Inspiration
+
+- **Freeport, Bahamas to the Azores, Portugal:** Currently explored as a proposed Atlantic route framing our featured marine research project, [Across the Atlantic](index.qmd#sailing-from-freeport-bahamas-to-the-azores).
+
+*Future voyage logs will be added here.*

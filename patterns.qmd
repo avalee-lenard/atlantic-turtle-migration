@@ -1,0 +1,32 @@
+---
+title: "Species & Ocean Patterns"
+---
+
+## How Species Are Represented in Our Data
+
+The **120,718 OBIS observations** in this project combine recorded sea turtle locations across the Atlantic study window (`85°W` to `10°E`, `5°S` to `65°N`).
+
+In our mapping script (`migration_map.R`), all sea turtle records are plotted together in a single color using latitude and longitude rather than separated by species name. While this combined dataset does not provide separate species counts on the map, it clearly shows **broad ocean patterns** shared across Atlantic sea turtle observations.
+
+![Combined Atlantic sea turtle geographic records from OBIS showing coastal bands, open-ocean points, and movement paths.](migration_map.png)
+
+## Ocean Patterns Visible on the Map
+
+### Coastal Shelves and Open-Ocean Waters
+
+The densest bands follow continental coastlines and island groups on both sides of the ocean. At the same time, widespread points stretch across the deep central Atlantic between **Freeport, Bahamas (`26.5°N, 78.7°W`)** and **the Azores (`37.7°N, 25.7°W`)**, showing that sea turtles occupy both shallow nearshore habitats and open-ocean waters.
+
+### Distribution by Latitude
+
+Although the study area spans from `5°S` to `65°N`, the vast majority of observations fall between roughly **`10°N` and `45°N`**. North of `50°N`, records become sparse, matching sea turtles' strong preference for warmer tropical, subtropical, and temperate waters.
+
+### Movement Tracks vs. Gridded Records
+
+Looking closely at the plotted points reveals two distinct recording patterns in OBIS:
+
+- **Continuous curved lines**—especially clear across the Caribbean, south of the Azores, and along Europe and West Africa—which represent repeated positions along travel paths.
+- **Evenly spaced grid dots** across the central North Atlantic (`~20°N–45°N`), where sightings have been summarized into regular latitude-longitude grid cells.
+
+## Connecting the Caribbean and the Atlantic
+
+Together, these patterns address our research question. Even though the red markers at Freeport and the Azores represent a proposed sailing journey rather than a single turtle's measured route, the continuous spread of observations across the basin shows that the Caribbean, western Atlantic coast, mid-ocean Azores, and eastern Atlantic are linked by active sea turtle presence.

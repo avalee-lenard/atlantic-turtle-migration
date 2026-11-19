@@ -1,7 +1,32 @@
 project:
   type: website
+
 website:
-  title: "Across the Atlantic"
+  title: "Ocean Exploration"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: voyages.qmd
+        text: Voyages & Logs
+      - text: Marine Research
+        menu:
+          - href: research.qmd
+            text: All Research Projects
+          - text: "---"
+          - text: "Featured: Across the Atlantic"
+          - href: index.qmd#sailing-from-freeport-bahamas-to-the-azores
+            text: Project Overview
+          - href: hotspots.qmd
+            text: Migration Hotspots
+          - href: patterns.qmd
+            text: Species & Ocean Patterns
+      - href: stories.qmd
+        text: Stories & Films
+    right:
+      - href: about.qmd
+        text: About
+
 format:
   html:
     theme: cosmo

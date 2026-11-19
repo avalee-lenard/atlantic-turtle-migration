@@ -1,0 +1,37 @@
+---
+title: "About"
+---
+
+## About This Website
+
+**Ocean Exploration** is a personal website built to grow alongside future ocean projects across three areas:
+
+- **[Voyages & Logs](voyages.qmd):** Sailing trips, route notes, and sea journals.
+- **[Marine Research](research.qmd):** Ocean data analysis and marine science projects.
+- **[Stories & Films](stories.qmd):** Ocean documentaries and photography.
+
+## Featured Project: Across the Atlantic
+
+Our first featured marine research project, **Across the Atlantic**, explores sea turtle distribution and migration patterns across the Atlantic Ocean. It uses a proposed sailing route from **Freeport, Bahamas**, to **the Azores, Portugal**, as a geographic frame to ask:
+
+> How do sea turtle migration patterns connect the Caribbean and the Atlantic Ocean?
+
+## Data and Workflow
+
+All content on this site is based on geographic occurrence records from the **Ocean Biodiversity Information System (OBIS)**, filtered and plotted in R (`migration_map.R`) to produce `migration_map.png`:
+
+| Detail | Value |
+|---|---|
+| **Data Source** | Ocean Biodiversity Information System (OBIS) |
+| **Atlantic Study Records** | 120,718 observations |
+| **Longitude Bounds** | `85°W` to `10°E` (`-85` to `10`) |
+| **Latitude Bounds** | `5°S` to `65°N` (`-5` to `65`) |
+| **Starting Reference Marker** | Freeport, Bahamas (`26.5°N, 78.7°W`) |
+| **Destination Reference Marker** | Azores, Portugal (`37.7°N, 25.7°W`) |
+| **Tools** | R (`dplyr`, `ggplot2`) and Quarto |
+
+## Scope and Limitations
+
+- **Combined Sea Turtle Records:** Our map plots all 120,718 Atlantic observations by latitude and longitude in one layer; it does not separate points by individual species, season, or individual animal track.
+- **Proposed Sailing Route:** As noted on the Home page, the red markers at Freeport and the Azores identify endpoints of a proposed sailing voyage, not a single measured turtle migration path.
+- **Survey Effort:** Dense clusters on the map reflect where sea turtles are frequently found as well as where scientific surveys and tracking programs collect the most data.

@@ -1,0 +1,28 @@
+---
+title: "Migration Hotspots"
+---
+
+## Where Sea Turtles Gather in the Atlantic
+
+Our dataset contains **120,718 sea turtle observations** from the Ocean Biodiversity Information System (OBIS) within the Atlantic study region (`85°W` to `10°E` longitude and `5°S` to `65°N` latitude).
+
+On the map below, each observation is plotted with partial transparency (`alpha = 0.18`). Isolated sightings appear faint, while areas with many overlapping records build into dark teal hotspots.
+
+![Sea turtle observations across the Atlantic, showing dense coastal and island clusters. Source: OBIS.](migration_map.png)
+
+## Major Hotspots Visible in the Data
+
+Across the plotted OBIS records, five main high-density regions stand out:
+
+- **The Bahamas and Southeastern North America (`~25°N–42°N, 82°W–70°W`):** One of the darkest continuous bands on the map follows the western Atlantic coast near **Freeport, Bahamas (`26.5°N, 78.7°W`)**, Florida, and northward along the U.S. Atlantic shelf.
+- **The Caribbean Sea (`~10°N–20°N, 85°W–60°W`):** Dense island clusters and curved travel paths span the Caribbean basin, with smaller coastal concentrations continuing south toward `5°S`.
+- **Northwestern Atlantic Offshore Waters (`~42°N–48°N, 50°W–40°W`):** A distinct offshore cluster appears northeast of the North American coast in open North Atlantic waters.
+- **The Azores (`~37°N–40°N, 31°W–24°W`):** In the central North Atlantic, observations cluster tightly around **the Azores (`37.7°N, 25.7°W`)**, highlighting these mid-ocean islands as an active hub surrounded by deep ocean.
+- **Eastern Atlantic and Mediterranean Entrance (`~35°N–44°N, 10°W–10°E`):** Heavy shading covers the waters around the Iberian Peninsula and the entrance to the Mediterranean Sea, with connected movement tracks extending south off West Africa.
+
+## How to Interpret Observation Hotspots
+
+Hotspots on a biodiversity map reflect two factors working together:
+
+1. **Habitat Use:** Dense clusters point to productive coastal shelves, island groups, and ocean corridors where sea turtles regularly feed, nest, or travel.
+2. **Observation Effort:** Because OBIS compiles scientific surveys and tracking studies, accessible coastlines and monitored island regions naturally accumulate more recorded sightings than remote open-ocean waters.
