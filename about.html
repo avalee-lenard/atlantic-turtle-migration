@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Atlantic Journey: From the Bahamas to the Azores – Across the Atlantic</title>
+<title>About – Ocean Exploration</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-977607561cd60f84a551947bb62c3781.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0f0bbab39cf224faf91ea28bb0a8aada.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Across the Atlantic</span>
+    <span class="navbar-title">Ocean Exploration</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -99,12 +99,43 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./explore.html"> 
-<span class="menu-text">Explore</span></a>
+    <a class="nav-link" href="./voyages.html"> 
+<span class="menu-text">Voyages &amp; Logs</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-marine-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Marine Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-marine-research">    
+        <li>
+    <a class="dropdown-item" href="./research.html">
+ <span class="dropdown-text">All Research Projects</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Featured: Across the Atlantic</li>
+        <li>
+    <a class="dropdown-item" href="./index.html#sailing-from-freeport-bahamas-to-the-azores">
+ <span class="dropdown-text">Project Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./hotspots.html">
+ <span class="dropdown-text">Migration Hotspots</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./patterns.html">
+ <span class="dropdown-text">Species &amp; Ocean Patterns</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./story.html" aria-current="page"> 
-<span class="menu-text">Story</span></a>
+    <a class="nav-link" href="./stories.html"> 
+<span class="menu-text">Stories &amp; Films</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -117,25 +148,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-beginning-the-bahamas" id="toc-the-beginning-the-bahamas" class="nav-link active" data-scroll-target="#the-beginning-the-bahamas">1. The Beginning: The Bahamas</a></li>
-  <li><a href="#the-atlantic-crossing" id="toc-the-atlantic-crossing" class="nav-link" data-scroll-target="#the-atlantic-crossing">2. The Atlantic Crossing</a></li>
-  <li><a href="#the-azores-a-destination-in-the-atlantic" id="toc-the-azores-a-destination-in-the-atlantic" class="nav-link" data-scroll-target="#the-azores-a-destination-in-the-atlantic">3. The Azores: A Destination in the Atlantic</a></li>
-  <li><a href="#what-the-data-reveals" id="toc-what-the-data-reveals" class="nav-link" data-scroll-target="#what-the-data-reveals">4. What the Data Reveals</a></li>
-  <li><a href="#why-this-journey-matters" id="toc-why-this-journey-matters" class="nav-link" data-scroll-target="#why-this-journey-matters">5. Why This Journey Matters</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Atlantic Journey: From the Bahamas to the Azores</h1>
+<h1 class="title">About</h1>
 </div>
 
 
@@ -152,90 +171,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<style>
-  .story-hero {
-    background: linear-gradient(135deg, #0a2540 0%, #0f4c75 55%, #14b8a6 100%);
-    color: #ffffff;
-    padding: 2rem 2.25rem;
-    border-radius: 12px;
-    margin-bottom: 2rem;
-    box-shadow: 0 6px 18px rgba(10, 37, 64, 0.2);
-  }
-  .story-hero p {
-    font-size: 1.1rem;
-    margin-bottom: 0;
-    line-height: 1.6;
-  }
-  h2 {
-    color: #0a2540;
-    border-bottom: 3px solid #14b8a6;
-    padding-bottom: 0.35rem;
-    margin-top: 2.2rem;
-  }
-  .story-section-card {
-    background-color: #ffffff;
-    border: 1px solid #d7f2ef;
-    border-left: 5px solid #14b8a6;
-    border-radius: 8px;
-    padding: 1.25rem 1.5rem;
-    margin: 1.4rem 0;
-    box-shadow: 0 2px 10px rgba(10, 37, 64, 0.06);
-  }
-  .story-map-box {
-    background-color: #f7fcfc;
-    border: 2px solid #14b8a6;
-    border-radius: 10px;
-    padding: 1.25rem;
-    margin: 1.5rem 0;
-  }
-  .navy-callout {
-    background-color: #0a2540;
-    color: #ffffff;
-    border-radius: 10px;
-    padding: 1.35rem 1.6rem;
-    margin-top: 1.5rem;
-  }
-  .navy-callout strong {
-    color: #5eead4;
-  }
-</style>
-<div class="story-hero">
-<p>From the sun-warmed banks of the Bahamas to the volcanic islands of the Azores, our proposed sailing route crosses an ocean full of movement. Along the way, real marine biodiversity records help us explore how sea turtles use both shallow western habitats and distant mid-Atlantic waters.</p>
-</div>
-<section id="the-beginning-the-bahamas" class="level2">
-<h2 class="anchored" data-anchor-id="the-beginning-the-bahamas">1. The Beginning: The Bahamas</h2>
-<p>At the western edge of our route around Freeport, the Bahamas offer some of the most productive coastal waters in the subtropical Atlantic. Vast, shallow carbonate banks warm quickly in the sun, supporting lush <strong>seagrass meadows</strong>, vibrant coral reefs, and sheltered tidal creeks where green, loggerhead, and hawksbill turtles find abundant food and refuge.</p>
-<p>For many Atlantic sea turtles, warm western Atlantic and Caribbean waters serve as vital feeding grounds and developmental nurseries. Seagrass beds nourish grazing green turtles, while reefs and sandy bottoms provide sponges, crustaceans, and shelter from large open-ocean predators—making the Bahamian archipelago a natural starting point for an Atlantic story.</p>
+<section id="about-this-website" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-website">About This Website</h2>
+<p><strong>Ocean Exploration</strong> is a personal website built to grow alongside future ocean projects across three areas:</p>
+<ul>
+<li><strong><a href="./voyages.html">Voyages &amp; Logs</a>:</strong> Sailing trips, route notes, and sea journals.</li>
+<li><strong><a href="./research.html">Marine Research</a>:</strong> Ocean data analysis and marine science projects.</li>
+<li><strong><a href="./stories.html">Stories &amp; Films</a>:</strong> Ocean documentaries and photography.</li>
+</ul>
 </section>
-<section id="the-atlantic-crossing" class="level2">
-<h2 class="anchored" data-anchor-id="the-atlantic-crossing">2. The Atlantic Crossing</h2>
-<p>Beyond the edge of the Bahamian banks, the seafloor drops sharply and powerful currents—including the <strong>Gulf Stream</strong> and the broader <strong>North Atlantic Gyre</strong>—sweep northeastward into the open ocean. Sea turtles undertake long-distance oceanic movements to connect the different habitats they need across their lifespans, riding major currents as young turtles to find surface prey and later swimming across thousands of kilometers between foraging areas and nesting coasts.</p>
-<div class="story-section-card">
-<p><strong>Challenges in the Open Ocean:</strong> Crossing an ocean basin tests survival at every stage. Moving turtles must navigate shifting water temperatures, patchy food supplies, and natural predators while encountering modern human pressures—including floating plastic debris mistaken for jellyfish, busy transatlantic shipping lanes, and accidental capture (bycatch) in longline and net fisheries.</p>
-</div>
+<section id="featured-project-across-the-atlantic" class="level2">
+<h2 class="anchored" data-anchor-id="featured-project-across-the-atlantic">Featured Project: Across the Atlantic</h2>
+<p>Our first featured marine research project, <strong>Across the Atlantic</strong>, explores sea turtle distribution and migration patterns across the Atlantic Ocean. It uses a proposed sailing route from <strong>Freeport, Bahamas</strong>, to <strong>the Azores, Portugal</strong>, as a geographic frame to ask:</p>
+<blockquote class="blockquote">
+<p>How do sea turtle migration patterns connect the Caribbean and the Atlantic Ocean?</p>
+</blockquote>
 </section>
-<section id="the-azores-a-destination-in-the-atlantic" class="level2">
-<h2 class="anchored" data-anchor-id="the-azores-a-destination-in-the-atlantic">3. The Azores: A Destination in the Atlantic</h2>
-<p>Rising abruptly from the Mid-Atlantic Ridge, the <strong>Azores</strong> form an isolated oasis of nine volcanic islands surrounded by deep ocean. Where currents meet underwater seamounts and island slopes, upwelling nutrients fuel rich blooms of plankton, jellyfish, crustaceans, and fish—turning the surrounding waters into a biological magnet for whales, seabirds, and sea turtles.</p>
-<p>Because the North Atlantic Gyre naturally carries surface-drifting organisms eastward from the Americas, the waters around the Azores serve as a well-known oceanic foraging ground—especially for juvenile loggerhead turtles growing in the open sea before they eventually return to western Atlantic coastal waters.</p>
+<section id="data-and-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-workflow">Data and Workflow</h2>
+<p>All content on this site is based on geographic occurrence records from the <strong>Ocean Biodiversity Information System (OBIS)</strong>, filtered and plotted in R (<code>migration_map.R</code>) to produce <code>migration_map.png</code>:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Detail</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Data Source</strong></td>
+<td>Ocean Biodiversity Information System (OBIS)</td>
+</tr>
+<tr class="even">
+<td><strong>Atlantic Study Records</strong></td>
+<td>120,718 observations</td>
+</tr>
+<tr class="odd">
+<td><strong>Longitude Bounds</strong></td>
+<td><code>85°W</code> to <code>10°E</code> (<code>-85</code> to <code>10</code>)</td>
+</tr>
+<tr class="even">
+<td><strong>Latitude Bounds</strong></td>
+<td><code>5°S</code> to <code>65°N</code> (<code>-5</code> to <code>65</code>)</td>
+</tr>
+<tr class="odd">
+<td><strong>Starting Reference Marker</strong></td>
+<td>Freeport, Bahamas (<code>26.5°N, 78.7°W</code>)</td>
+</tr>
+<tr class="even">
+<td><strong>Destination Reference Marker</strong></td>
+<td>Azores, Portugal (<code>37.7°N, 25.7°W</code>)</td>
+</tr>
+<tr class="odd">
+<td><strong>Tools</strong></td>
+<td>R (<code>dplyr</code>, <code>ggplot2</code>) and Quarto</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="what-the-data-reveals" class="level2">
-<h2 class="anchored" data-anchor-id="what-the-data-reveals">4. What the Data Reveals</h2>
-<div class="story-map-box">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="migration_map.png" class="img-fluid figure-img"></p>
-<figcaption>Sea turtle observations across the Atlantic Ocean from OBIS, showing Freeport, Bahamas, and the Azores.</figcaption>
-</figure>
-</div>
-</div>
-<p>Compiled from <strong>120,718 OBIS records</strong> across the Atlantic study region, the map reveals a striking bridge of marine life: dense clusters of observations hug the western Atlantic coast around the Bahamas and southeastern North America, scatter across open-ocean latitudes, and concentrate again around the Azores and European coasts. Importantly, these points combine many independent sightings and surveys over time—they <strong>do not prove that a single individual turtle swam directly from Freeport to the Azores</strong>, and our red markers represent a proposed human sailing route rather than a measured animal track. Even so, the broad distribution demonstrates that both ends of this voyage—and the open waters between them—are active sea turtle habitats.</p>
-</section>
-<section id="why-this-journey-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-journey-matters">5. Why This Journey Matters</h2>
-<div class="navy-callout">
-<p><strong>Conservation Across Borders:</strong> Because sea turtles spend their lives crossing international waters, protecting a single beach or island is never enough. Mapping where turtles are observed—from Bahamian seagrass beds across the high seas to Azorean feeding grounds—helps scientists and policymakers design marine protected areas, adjust fishing practices to reduce bycatch during peak seasons, and safeguard the connected ocean ecosystems that sea turtles depend on to survive.</p>
-</div>
+<section id="scope-and-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="scope-and-limitations">Scope and Limitations</h2>
+<ul>
+<li><strong>Combined Sea Turtle Records:</strong> Our map plots all 120,718 Atlantic observations by latitude and longitude in one layer; it does not separate points by individual species, season, or individual animal track.</li>
+<li><strong>Proposed Sailing Route:</strong> As noted on the Home page, the red markers at Freeport and the Azores identify endpoints of a proposed sailing voyage, not a single measured turtle migration path.</li>
+<li><strong>Survey Effort:</strong> Dense clusters on the map reflect where sea turtles are frequently found as well as where scientific surveys and tracking programs collect the most data.</li>
+</ul>
 
 
 </section>
